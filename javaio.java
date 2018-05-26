@@ -1,4 +1,4 @@
-package giuaki;
+package javagiuaky2;
 
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
@@ -31,7 +31,7 @@ import java.nio.channels.FileChannel;
 import java.net.URL;
 import java.awt.Color;
 
-public class win {
+public class file {
 
     public static final String APP_TITLE = "";
     private Desktop desktop;
@@ -427,7 +427,7 @@ public class win {
                 JFrame f = new JFrame(APP_TITLE);
                 f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-                win fileManager = new win();
+                file fileManager = new file();
                 f.setContentPane(fileManager.getGui());
 
                 try {
